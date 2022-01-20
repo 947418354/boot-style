@@ -1,0 +1,20 @@
+{
+  "name": "@duguqiubai/boot-style",
+  "version": "0.0.0",
+  "description": "书写一些样式类,这样,在写标签的时候就只需要加入合适的样式类,而无需再去写样式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/947418354/boot-style.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/947418354/boot-style/issues"
+  },
+  "homepage": "https://github.com/947418354/boot-style#readme"
+}
