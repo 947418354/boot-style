@@ -38,6 +38,16 @@
 .relative {
   position: relative;
 }
+.absolute {
+  position: absolute;
+}
+
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
 
 .img-box > img {
   width: 100%;
@@ -51,9 +61,6 @@ button {
   padding: 0;
   border: 0;
   background-color: transparent;
-}
-.inline-block {
-  display: inline-block;
 }
 
 /**按钮 */
