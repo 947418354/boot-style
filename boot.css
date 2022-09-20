@@ -1,12 +1,13 @@
 
-/* 
+/**
 弹性布局 相关
 */
-.flex-item {
+/* 填充项目. 场景: 填充项目会压缩或增长填充满剩余空间. */
+.fill-item {
   flex-grow: 1;
   overflow: auto;
 }
-/* // 若要使弹性项目的孩子高度随弹性项目保持一致 请使用绝对定位 */
+/* 若要使弹性项目的孩子高度随弹性项目保持一致 请使用绝对定位 */
 .flex-item-child {
   position: absolute;
   width: 100%;
@@ -35,6 +36,9 @@
   align-items: center;
 }
 
+/**
+定位相关
+*/
 .relative {
   position: relative;
 }
@@ -63,7 +67,9 @@ button {
   background-color: transparent;
 }
 
-/**按钮 */
+/**
+按钮 
+*/
 button[type="text"] {
   background: transparent;
   border: 0;
@@ -75,6 +81,9 @@ button[type="text"] {
   line-height: 20px;
 }
 
+/**
+背景
+*/
 .bg {
   background-repeat: no-repeat;
   background-size: contain;
